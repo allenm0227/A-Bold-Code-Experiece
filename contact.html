@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Mekhi Allen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html"><span class="brand-name">Mekhi X. Allen</span></a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="experience.html" class="nav-link">Experience</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main class="container">
+    <section class="contact-hero reveal">
+      <h1>Contact</h1>
+      <p>I'm open to internships, mentorship, and project collaborations. Reach out — I'd love to connect.</p>
+    </section>
+
+    <section class="contact-grid reveal delay-1">
+      <div class="contact-card">
+        <h3>Get in touch</h3>
+        <p>Email: <a href="mailto:mekhiallen2005@gmail.com">mekhiallen2005@gmail.com</a></p>
+        <p>Phone: 202-492-8681</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mekhi-allen-aa9483272/" target="_blank" rel="noopener">Mekhi Allen</a></p>
+      </div>
+
+      <form id="contact-form" class="contact-form" action="#" method="post" onsubmit="return false;">
+        <label><span>Your name</span><input type="text" name="name" required /></label>
+        <label><span>Your email</span><input type="email" name="email" required /></label>
+        <label><span>Message</span><textarea name="message" rows="5" required></textarea></label>
+        <div class="form-actions">
+          <button class="btn" type="submit">Send</button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+        <p class="muted">Demo form — replace action with a server endpoint to enable submissions.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year5"></span> Mekhi X. Allen</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Mekhi X. Allen</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header container">
+    <a class="brand" href="index.html"><span class="brand-name">Mekhi X. Allen</span></a>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="experience.html" class="nav-link">Experience</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="resume.html" class="nav-link active">Resume</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main class="container">
+    <section class="resume-hero reveal">
+      <h1>Resume</h1>
+      <p class="lede">
+        View and download my most up-to-date resume, including skills, experience, education, and leadership roles.
+      </p>
+      <div class="resume-actions">
+        <!-- Assumes resume.pdf is in the same folder as this file -->
+        <a class="btn" href="resume.pdf" download>Download Resume (PDF)</a>
+        <a class="btn ghost" href="resume.pdf" target="_blank">Open in new tab</a>
+      </div>
+    </section>
+
+    <section class="resume-layout reveal delay-1">
+      <div class="resume-viewer">
+        <!-- Embedded view of your resume -->
+        <iframe src="resume.pdf" title="Mekhi Allen Resume" class="resume-frame"></iframe>
+      </div>
+
+      <aside class="resume-side">
+        <h2>Portfolio QR Code</h2>
+        <p>Scan this QR code to open my portfolio and GitHub repository on any device.</p>
+        <div class="qr-card">
+          <img
+            src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fgithub.com%2Fallenm0227%2FA-Bold-Code-Experiece"
+            alt="QR code linking to Mekhi Allen's portfolio repository"
+          />
+          <p class="muted small">
+            URL: <a href="https://github.com/allenm0227/A-Bold-Code-Experiece" target="_blank" rel="noopener">
+              github.com/allenm0227/A-Bold-Code-Experiece
+            </a>
+          </p>
+        </div>
+        <p class="muted">
+          This same QR code can be placed directly on the PDF resume before exporting.
+        </p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year5"></span> Mekhi X. Allen</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/mekhi-allen-aa9483272" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:mekhiallen2005@gmail.com">Email</a>
+      <a href="https://github.com/allenm0227" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- Chatbot markup (same snippet we’ll use on every page) -->
+  <div class="chatbot-toggle" id="chatbot-toggle">Chat</div>
+  <div class="chatbot-window" id="chatbot-window" aria-hidden="true">
+    <header class="chatbot-header">
+      <span>Ask Mekhi’s Bot</span>
+      <button class="chatbot-close" id="chatbot-close" aria-label="Close chat">✕</button>
+    </header>
+    <div class="chatbot-messages" id="chatbot-messages">
+      <div class="chatbot-msg bot">
+        Hi! I’m a simple chatbot. Ask me about Mekhi’s skills, experience, projects, or availability.
+      </div>
+    </div>
+    <form class="chatbot-input-row" id="chatbot-form">
+      <input type="text" id="chatbot-input" placeholder="Type your question..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
