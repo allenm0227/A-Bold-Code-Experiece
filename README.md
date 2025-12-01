@@ -51,7 +51,7 @@ The **Projects** section links back to this repository and will be expanded with
 ```bash
 git clone https://github.com/allenm0227/A-Bold-Code-Experiece.git
 cd A-Bold-Code-Experiece
-# Option 1: open index.html directly in a browser
+# Option 1: open https://allenm0227.github.io/A-Bold-Code-Experiece/index.html directly in a browser
 # Option 2: serve with Python
 python -m http.server 8000
 # then go to http://localhost:63342/CTEC450/index.html
