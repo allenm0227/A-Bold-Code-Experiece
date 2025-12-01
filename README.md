@@ -54,4 +54,4 @@ cd A-Bold-Code-Experiece
 # Option 1: open index.html directly in a browser
 # Option 2: serve with Python
 python -m http.server 8000
-# then go to http://localhost:8000/index.html
+# then go to http://localhost:63342/CTEC450/index.html
