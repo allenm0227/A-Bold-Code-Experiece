@@ -1,6 +1,6 @@
 # A-Bold-Code-Experience
 This repository hosts the source code for my personal portfolio website, designed to showcase my experience, skills, projects, and academic journey as a Computer Technology student at Bowie State University.
-## 🚀 Live Portfolio
+# Live Portfolio
 
 > (https://allenm0227.github.io/A-Bold-Code-Experiece/index.html)
 
