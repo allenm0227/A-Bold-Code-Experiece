@@ -40,8 +40,8 @@ The QR code is generated via a public QR service and points to this repository:
 
 The **Projects** section links back to this repository and will be expanded with additional project-specific repositories over time.
 
-Additional Repository For Data Science Research Group App:
-https://github.com/allenm0227/Echo-Reads-Research
+Additional Repository For Data Science Research Group App (AAAS Showcase):
+https://github.com/allenm0227/Echo-Reads-Research 
 
 ## 🛠 Tech Stack
 
